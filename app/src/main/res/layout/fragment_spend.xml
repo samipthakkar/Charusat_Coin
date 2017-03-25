@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:background="#FFF"
+        tools:context=".Shop">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btniceberg"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/iceberg"
+                        android:id="@+id/iceberg"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="IceBerg"
+                        android:textSize="30sp"
+                        android:textColor="#FFF"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btnnescafe"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/nescafe"
+                        android:id="@+id/nescafe"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Nescafe"
+                        android:textSize="30sp"
+                        android:textColor="#FFF"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/btnhariom"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/hariom"
+                        android:id="@+id/hariom"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Hari Om Canteen"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:id="@+id/btncollegestore"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/collegestore"
+                        android:id="@+id/collegestore"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="College Store"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btndannys"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/dannys"
+                        android:id="@+id/dannys"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Dannys Coffee Bar"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btnxerox"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="onclick">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/xerox"
+                        android:id="@+id/xerox"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Xerox centre"
+                        android:textSize="30sp"
+                        android:textColor="#FFFFFF"
+                        android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/btnamul"
+                android:layout_gravity="center"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                card_view:cardCornerRadius="5dp"
+                android:elevation="10dp"
+                android:clickable="true"
+                android:onClick="on">
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/amul"
+                        android:id="@+id/amul"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Amul Parlour"
+                        android:textSize="30sp"
+                        android:textColor="#FFF"
+                        android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+

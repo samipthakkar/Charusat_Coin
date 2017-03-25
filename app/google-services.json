@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "774766290329",
+    "project_id": "charusatcoin"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774766290329:android:eccf9f7dbe2cc996",
+        "android_client_info": {
+          "package_name": "yasheth.CHARUSATCoin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774766290329-ad19ui21f15kjh1i2kflatk3b8kvdffs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yasheth.CHARUSATCoin",
+            "certificate_hash": "05e5a33d40b10fb51cc653eab7a90633e38520db"
+          }
+        },
+        {
+          "client_id": "774766290329-pbp4ei5r2ogoc33aah6va2fdd7fjcibq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqvGWshX0CnjNlpibcYdebR9PSnHSVaC4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#FFF"
+    android:scrollbarThumbVertical="@null"
+    tools:context="yasheth.charusatcoin.SignUp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusableInTouchMode="true"
+    android:descendantFocusability="beforeDescendants"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/cciconbig"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ccfull"
+        android:layout_gravity="center"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="full name"
+        android:id="@+id/et_name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="email id"
+        android:id="@+id/et_email" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="username"
+        android:id="@+id/et_username" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="password"
+        android:id="@+id/et_password" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="confirm password"
+        android:id="@+id/et_confpassword" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:text="Sign Up!"
+        android:background="@drawable/shape_oval_blue"
+        android:textColor="#FFF"
+        android:id="@+id/btnsignup"
+        android:clickable="true"
+        android:onClick="onClick"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Already a member? Log In!"
+        android:textColor="#000"
+        android:id="@+id/btnlogin"
+        android:clickable="true"
+        android:onClick="onClick"/>
+</LinearLayout>
+</ScrollView>

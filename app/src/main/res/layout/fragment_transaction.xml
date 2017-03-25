@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:background="#FFF"
+    tools:context=".Shop">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:id="@+id/vendorcover"
+            android:scaleType="fitXY"
+            android:background="@drawable/iceberg"
+            android:src="@drawable/frame"
+            android:elevation="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="VENDOR ID : V01IB"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ICEBERG"
+            android:textSize="30sp"
+            android:textColor="#000"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="INITIATE TRANSACTION"
+            android:background="@drawable/shape_oval_blue"
+            android:textColor="#FFF"
+            android:id="@+id/btnscan"
+            android:clickable="true"
+            android:onClick="onclick"/>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

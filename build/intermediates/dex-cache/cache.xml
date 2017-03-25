@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-23.1.1_3c3c50420835add7f7845ee5834d6601e782a0cb\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\core\1.8.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="af8d42f1f020e936b8cd9f5cb6c75993194895a3">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-core-1.8.4_fea5907716a3880a37273bbc73cb15b8036b0b63\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-23.1.1_a2db56e0522a820f493a956284133e71e36c4f61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6058282605052b5eb06181b73762e6a44b84137c">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8d2759a6dfa18399e80b6f7378ca24e91cb2e32b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\me.dm7.barcodescanner\zxing\1.8.4\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="68ef1daf85c69fca8fddf7bbb947fc51cc9f8ca3">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\me.dm7.barcodescanner-zxing-1.8.4_787da0fe2c2a13e7cafb2b48412bab5c11c90ed0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-23.1.1_7af0371b9cead32041408524805ef4adc41cf22a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\design\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1821601ddbec5ff125653097812823388700af74">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-22.2.1_4e72472892a8f75eeb4b406ad091a1137a26e47b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\.gradle\caches\modules-2\files-2.1\com.google.zxing\core\3.2.1\2287494d4f5f9f3a9a2bb6980e3f32053721b315\core-3.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\core-3.2.1_b14a4d5296ba4096f78bea8b56d0104cf5bad55a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_3d889a284f6063400df80c507f33ebbe5d23fb2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-22.2.1_8671bd70b20dec6af53b42db8ddaac23bae4a582\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f3765e77909a41bb956247a1797a69a96790a293">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_e3850bf3905ac03450625096ec4d18e1651073b1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e1fa5e1123997a55e3ed65b44892993ff4b58cfe">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-cardview-v7-22.2.1_0032808a410171109d7d79d08634dcb2edd8ce95\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\22.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3abb4b88f5a8a0584a9b01d3170d7165f12f8588">
+        <dex dex="C:\Users\yasheth\Documents\Workspace\CHARUSATCoin\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-22.2.1_f90952326d11191fd33f2947b5023b3c727b3afb\classes.dex" />
+    </item>
+
+</items>
